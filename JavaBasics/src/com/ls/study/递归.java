@@ -15,4 +15,8 @@ public class 递归 {
             return n*f(n-1);
         }
     }
+    public void test(){
+        int i = 0;
+        i+=10;
+    }
 }
