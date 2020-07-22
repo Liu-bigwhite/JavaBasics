@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class ScannerTest {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String next = scanner.next();
+        System.out.println("shu ru de shi :"+next);
 
-        methodParam(new Scanner(System.in));
+        //methodParam(new Scanner(System.in));
 
     }
     public static void methodParam(Scanner sr){

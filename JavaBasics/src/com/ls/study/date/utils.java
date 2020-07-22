@@ -1,4 +1,4 @@
-package com.ls.study;
+package com.ls.study.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,4 +16,6 @@ public class utils {
         SimpleDateFormat sdf = new SimpleDateFormat(patt);
         return sdf.parse(string);
     }
+
+
 }
